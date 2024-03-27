@@ -32,7 +32,8 @@ Esta linha de código utiliza a função Destroy para remover o objeto alvo (tar
  ## Adicionais
  Por várias complicações, só consegui pegar o notebook da minha mãe no qual uso para programar, hoje mesmo, então, tive muitos problemas com as versões do Unity e a Asset Store que um simplesmente não queria mudar de versão e outro não levava os assets pro unity, eu baixava, tentava abrir pelo unity e não estava indo, por isso a falta de assets e a versão estar desatualizada, descupla Aline, eu fiquei mais de 2 horas tentando resolver o unity, a parte de programar não foi díficil, não tomou tempo, mas essa fiquei muito tempo e estressado, então pensei que poderia fazer assim, além disso o gitbash não estava passando o projeto pro unity, então vou anexar o link para o google drive aqui abaixo. Desculpa pelos distúrbios e um Bom Dia, Boa tarde ou noite, pra quando estiver corrigindo isso <3 (Desculpe pelo código de movimentação, por que eu não sei o que deu nesse especificamente que ele começou a ficar bugado assim).
 
- ##Link do Jogo
+
+ ## Link do Jogo
 https://drive.google.com/drive/folders/1uR5AytLmhGQGCWyXvDILUHkTWyNMtaap?usp=drive_link
 (Pode usar ambos, qual preferir)
 https://drive.google.com/file/d/1KgQqd1O3RrlhGJNvkEmzTJQL30ljXh2h/view?usp=sharing
