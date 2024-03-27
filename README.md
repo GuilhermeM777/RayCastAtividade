@@ -16,20 +16,20 @@ Esta linha faz parte de uma estrutura condicional if e está verificando se o ob
  - 'hit.transform': Esta linha retorna o componente 'Transform' do objeto atingido pelo raio. O objeto atingido pode ser qualquer objeto no cenário que o raio interceptou.
  - 'target': Esta é a variável que contém a referência ao objeto que estamos interessados em verificar se está no campo de visão do objeto atual.
 
-#![image](https://github.com/GuilhermeM777/RayCastAtividade/assets/127865701/d26460ab-b845-4020-ac49-29995c11a260)
+# ![image](https://github.com/GuilhermeM777/RayCastAtividade/assets/127865701/d26460ab-b845-4020-ac49-29995c11a260)
 Esta linha também faz parte de uma estrutura condicional if e está verificando se a distância entre a posição do objeto atual e a posição do objeto alvo (target) é menor ou igual a uma determinada distância (destroyDistance). Se essa condição for verdadeira, significa que o objeto atual está a uma distância igual ou menor que a destroyDistance do objeto alvo, e então é o momento de destruir o objeto alvo.
  -'Vector3.Distance': Este é um método estático da classe 'Vector3' em Unity, que calcula a distância entre dois pontos no espaço tridimensional. No caso, ele está sendo usado para calcular a distância entre a posição do objeto atual ('transform.position') e a posição do objeto alvo ('target.position').
  -'transform.position': Este é o vetor que representa a posição do objeto ao qual este script está anexado, ou seja, o objeto atual.
  - 'target.position': Este é o vetor que representa a posição do objeto alvo que estamos monitorando.
  - 'destroyDistance': Esta é uma variável que define a distância máxima em que queremos que o objeto alvo seja destruído
 
-#![image](https://github.com/GuilhermeM777/RayCastAtividade/assets/127865701/55155cf8-5f91-4bfd-b19f-22c0889ae6e8)
+# ![image](https://github.com/GuilhermeM777/RayCastAtividade/assets/127865701/55155cf8-5f91-4bfd-b19f-22c0889ae6e8)
 Esta linha de código utiliza a função Destroy para remover o objeto alvo (target) da cena. Vamos analisar mais detalhadamente:
  -'target': Esta é a referência ao objeto que queremos destruir. No contexto do código, 'target' é o objeto que estamos monitorando para verificar se está dentro de uma certa distância e, se estiver, queremos destruí-lo.
  -'gameObject': 'target.gameObject' é a referência ao 'GameObject' associado ao componente target. Isso é necessário porque a função Destroy espera receber o 'GameObject' que queremos destruir, e não apenas o componente Transform ou qualquer outro componente.
  -'Destroy': Esta é uma função fornecida pelo Unity que remove um objeto da cena. Quando 'Destroy' é chamado, o objeto associado é marcado para destruição e será removido da cena no final do frame atual.
 
- ##Adicionais
+ ## Adicionais
  Por várias complicações, só consegui pegar o notebook da minha mãe no qual uso para programar, hoje mesmo, então, tive muitos problemas com as versões do Unity e a Asset Store que um simplesmente não queria mudar de versão e outro não levava os assets pro unity, eu baixava, tentava abrir pelo unity e não estava indo, por isso a falta de assets e a versão estar desatualizada, descupla Aline, eu fiquei mais de 2 horas tentando resolver o unity, a parte de programar não foi díficil, não tomou tempo, mas essa fiquei muito tempo e estressado, então pensei que poderia fazer assim, além disso o gitbash não estava passando o projeto pro unity, então vou anexar o link para o google drive aqui abaixo. Desculpa pelos distúrbios e um Bom Dia, Boa tarde ou noite, pra quando estiver corrigindo isso <3 (Desculpe pelo código de movimentação, por que eu não sei o que deu nesse especificamente que ele começou a ficar bugado assim).
 
  ##Link do Jogo
